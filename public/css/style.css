@@ -1,0 +1,63 @@
+@media screen and (max-width: 600px){
+ 
+ .main-div{
+     width: 600px;
+     float: left;
+     margin-left: 0px;
+ }
+.logo-div{
+    border-right: 0px solid !important;
+    margin-top: 10px;
+}
+.logo-div > img, .notFound-div img{
+    width: 150px;
+}  
+.form-div form{
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.notFound-div h4{
+    font-size: 30px;
+}
+.profile-background img{
+    width: 400px;
+   
+}
+.profile-image-div{
+    position: relative;
+    bottom: 40px;
+    right: 50px;
+    
+}
+.profile-div{
+    height: 200px;
+}
+
+.profile-button-div, .profile-name-div{
+    position: relative;
+    top: -85px;
+}
+
+.profile-image-div img{
+    width: 100px;
+
+}
+.create-post-form{
+    display: inline!important;
+}
+.post-div{
+    margin-top: 10px!important;
+    padding-top: 10px!important;
+}
+.post-button{
+    padding: 6px 120px!important;
+    margin-top: 15px;
+}
+
+
+}
+
+.comment-icons:hover{
+    color: rgb(37, 49, 218);
+    transition: 0.5s ease-in-out;
+}
